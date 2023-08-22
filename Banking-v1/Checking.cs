@@ -31,7 +31,7 @@ namespace Banking_v1
                 return false;
             int checkno = NextCheckNo++;
             return true;
-            Console.WriteLine("#"+checkno+" for $"+Amount);
+            //Console.WriteLine("#"+checkno+" for $"+Amount);
         }
         public bool Deposit(decimal Amount)
         {

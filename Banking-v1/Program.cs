@@ -7,8 +7,18 @@ internal class Program
     {
         Savings sav1 = new Savings();
         sav1.Description = "savings account";
-        sav1.Deposit(400);
-        sav1.Withdraw(50);
+        sav1.Deposit(-400);
+        sav1.Withdraw(-50);
+        sav1.Print();
+        Savings sav2 = new Savings();
+        sav2.Deposit(50);
+        sav2.transfer(sav1, 100);
+        sav2.Print();
+        sav1.Print();
+        sav1.transfer(sav2, -100);
+        sav1.Print();
+        sav2.Print();
+        sav1.Withdraw(100);
         sav1.Print();
         
         /*
@@ -23,7 +33,7 @@ internal class Program
 
         Chk1.print();
         Chk2.print();
-        /*
+        
         Account AcctChecking = new Account();
         Account AcctSavings = new Account();
         AcctSavings.Deposit(500);
@@ -36,7 +46,8 @@ internal class Program
 
         AcctChecking.Print();
         AcctSavings.Print();
-        */
+         */
+        
 
     }
 }
