@@ -21,7 +21,7 @@ internal class Program
         sav1.Withdraw(100);
         sav1.Print();
         
-        /*
+        ///*
         Checking Chk1 = new Checking();
         Checking Chk2 = new Checking();
         Chk1.Description = "Checking Account";
@@ -46,7 +46,7 @@ internal class Program
 
         AcctChecking.Print();
         AcctSavings.Print();
-         */
+        //*/
         
 
     }
