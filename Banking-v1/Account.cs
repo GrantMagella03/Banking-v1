@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_v1
 {
-    internal class Account
+    public class Account
     {
         public static string RoutingNumber { get; set; } = "123 456 789";
         public decimal Balance { get; set; } = 0;

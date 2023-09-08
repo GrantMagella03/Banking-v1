@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_v1
 {
-    internal class Checking
+    public class Checking
     {
         private Account _Account { get; set; }
         private static int NextCheckNo = 100;

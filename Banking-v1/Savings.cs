@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_v1
 {
-    internal class Savings : Account
+    public class Savings : Account
     {
         public decimal InterestRate { get; set; } = 0.12m;
         public Savings() : base() 
